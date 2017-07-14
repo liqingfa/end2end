@@ -4,9 +4,9 @@ markdown    : kramdown
 highlighter : pygments
 gems: [jekyll-paginate]
 
-paginate: 3
+paginate: 5
 paginate_path: "/blog/page/:num/"
-comments: true
+comments: false
 
 source: source
 destination: _site
@@ -15,16 +15,16 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: 李清发
-description: "人淡如菊"
+title: 李清发的技术博客
+# description: "人淡如菊"
 keywords: "iOS, OC, Objective-C, Swift, blog"
 url: https://liqingfa.github.io/warrior
 baseurl: "/warrior"
 
 # google_analytics: UA-52446115-1
 repo: https://github.com/liqingfa/warrior
-disqus_shortname: "nandothemes"
-disqus_site_shortname: "nandothemes"
+# disqus_shortname: "nandothemes"
+# disqus_site_shortname: "nandothemes"
 
 # Author settings
 author:
@@ -34,10 +34,6 @@ author:
   thumb     : /images/author.png
   email     : 12069883@qq.com
   url       : https://liqingfa.github.io/warrior
-  github    : http://github.com/liqingfa
-  twitter   : http://twitter.com/
-  facebook  : http://facebook.com/
-  linkedin  : http://linkedin.com/
 
 # navbar pages
 navbar:
