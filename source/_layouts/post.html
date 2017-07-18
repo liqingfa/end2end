@@ -14,6 +14,22 @@ layout: default
       {{ content }}
     </div>
 
+
+    
+	<div id="container"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+		var gitment = new Gitment({
+  			owner: 'liqingfa',
+  			repo: 'warrior',
+  		oauth: {
+    		client_id: '365140cd87e642a0c508',
+    		client_secret: '2fe09a8ba4c787869467facdb4d1d5409c0da946',
+  		},
+	})
+	gitment.render('container')
+</script>
   </div>
 
 </article>
